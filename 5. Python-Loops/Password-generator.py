@@ -14,6 +14,9 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 password_list = []
 
 # we either use append() function or use variable+=variable logic to get the desired list
+# The choice() method returns a randomly selected element from the specified sequence.
+#The sequence can be a string, a range, a list, a tuple or any other kind of sequence.
+
 for char in range(1, nr_letters + 1):
   password_list.append(random.choice(letters))
 
