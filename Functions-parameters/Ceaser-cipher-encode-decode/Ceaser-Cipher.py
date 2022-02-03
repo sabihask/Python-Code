@@ -1,3 +1,6 @@
+# This program helps encrypt o decrypt given text by user. The programe encrypts/decrypts by shifting each letter of the 'text' forwards/backwads in the alphabet[]
+#by the shift amount and print the encrypted/decrypted text.  
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def caesar(start_text, shift_amount, cipher_direction):
@@ -31,7 +34,7 @@ while not should_end:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
   shift = int(input("Type the shift number:\n"))
-  #TODO-2: What if the user enters a shift that is greater than the number of letters in the alphabet?
+  # What if the user enters a shift that is greater than the number of letters in the alphabet?
   #Try running the program and entering a shift number of 45.
   #Add some code so that the program continues to work even if the user enters a shift number greater than 26. 
   shift = shift % 26
