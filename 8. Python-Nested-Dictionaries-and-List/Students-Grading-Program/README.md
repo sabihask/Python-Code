@@ -33,17 +33,3 @@ This is the scoring criteria:
 2. If in doubt as to why your code is not doing what you expected, you can always print out the intermediate values. 
 
 3. At the **end** of your program, the print statement will show the final `student_scores` dictionary, do not change this.
-
-# Test Your Code
-
-Before checking the solution, try copy-pasting your code into this repl: 
-
-[https://repl.it/@appbrewery/day-9-1-test-your-code](https://repl.it/@appbrewery/day-9-1-test-your-code)
-
-This repl includes my testing code that will check if your code meets this assignment's objectives. 
-
-
-# Solution
-
-[https://repl.it/@appbrewery/day-9-1-solution](https://repl.it/@appbrewery/day-9-1-solution)
-
