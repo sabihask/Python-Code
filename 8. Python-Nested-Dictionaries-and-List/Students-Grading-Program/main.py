@@ -14,9 +14,6 @@ student_grades[81 - 90]={"Exceeds Expectations"}
 student_grades[71 - 80]={"Acceptable"}
 student_grades["70 or lower"]={"Fail"}
 
-# print(student_grades)
-
-
 #TODO-2: Write your code below to add the grades to student_grades.👇
 for key in student_scores:
   if student_scores[key]>91:
