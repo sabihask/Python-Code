@@ -1,5 +1,5 @@
-import turtle as turtle_module
 #Creating a replica of famous english painter Hirst
+import turtle as turtle_module
 import random
 
 turtle_module.colormode(255)
