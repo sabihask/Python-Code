@@ -23,6 +23,7 @@ print(data)
 while len(guessed_states) < 50:
     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
                                     prompt="What's another state's name?").title()
+   # when typed Exit, before exiting the game it creates a missing list of states which havent been guessed and this list can be used for learning about more states later
     if answer_state == "Exit":
         missing_states = []
         for state in all_states:
