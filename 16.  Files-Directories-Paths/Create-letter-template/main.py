@@ -9,10 +9,10 @@
 
 PLACEHOLDER = "[name]"
 
-with open("./Input/Names/invited_names.txt") as name_file:
+with open("./Input/invited_names.txt") as name_file:
     names_list = name_file.readlines()
 
-with open("./Input/Letters/starting_letter.txt") as file_letter:
+with open("./Input/starting_letter.txt") as file_letter:
     letter_contents = file_letter.read()
     #print(letter_contents)
     for name in names_list:
