@@ -1,3 +1,24 @@
+#POMODORO - is a time management technique.
+# How does it work? 
+
+# A pomodoro is a measurement of time. 1 pomodoro = 25 minutes.
+
+# 1. Make a list of all the tasks you want to do that day and allocate how many pomodoros you will spend on each task.
+
+# 2. Set the timer to 25 minutes.
+
+# 3. Work solely on one task until the timer rings.
+
+# 4. Take a 5 minute break.
+
+# 5. Move onto the next 25 minute pomodoro and keep repeating the process.
+
+# 6. After every forth pomodoro, take a longer break.
+
+#The Dynamic Typing model - In statically-typed languages the variables’ types are determined at compile-time. In most languages that support this static typing model,
+# programmers must specify the type of each variable. On the other hand, types in Python are determined during run-time as opposed to compile-time and thus programmers 
+# are not required to declare variables before using them in the code.
+##########################################################################
 from tkinter import *
 import math
 # ---------------------------- CONSTANTS ------------------------------- #
