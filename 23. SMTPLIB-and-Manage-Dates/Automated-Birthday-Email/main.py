@@ -4,6 +4,7 @@
 # 3. Update the SMTP ADDRESS to match your email provider.
 # 4. Update birthdays.csv to contain today's month and day.
 # See the solution video in the 100 Days of Python Course for explainations.
+# you can run the app in cloud by uploading the files in pytthonanywhere site and scheduling it to check everyday for the birthdays and send email 
 
 
 from datetime import datetime
@@ -11,7 +12,7 @@ import pandas
 import random
 import smtplib
 
-MY_EMAIL = "orangesun732@gmail.com"
+MY_EMAIL = "sender.email@gmail.com"
 MY_PASSWORD = "12341234*"
 
 today = datetime.now()
