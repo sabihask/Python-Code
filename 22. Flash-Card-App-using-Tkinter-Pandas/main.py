@@ -1,3 +1,8 @@
+# Create a Flash card game - the card shows a French word and we need to guess the english word for it. The flash card waits for 3 seconds and then flips and shows the back of the card
+# with the english word. If we get the word right we click the 'right' button else we click the 'wrong' button. For every 'wrong' word it gets added to the word_to_learn.csv' file for 
+# the flash card flash card app to show it again.
+
+
 from tkinter import *
 import pandas
 import random
