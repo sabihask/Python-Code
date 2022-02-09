@@ -1,3 +1,4 @@
+# sends email every wednesday with a motivationl quote
 import random
 import datetime as dt
 import smtplib
