@@ -1,23 +1,28 @@
-from menu import Menu
-from coffee_maker import CoffeeMaker
-from money_machine import MoneyMachine
+import random
+import datetime as dt
+import smtplib
 
-money_machine = MoneyMachine()
-coffee_maker = CoffeeMaker()
-menu = Menu()
 
-is_on = True
 
-while is_on:
-    options = menu.get_items()
-    choice = input(f"What would you like? ({options}): ")
-    if choice == "off":
-        is_on = False
-    elif choice == "report":
-        coffee_maker.report()
-        money_machine.report()
-    else:
-        drink = menu.find_drink(choice)
-        
-        if coffee_maker.is_resource_sufficient(drink) and money_machine.make_payment(drink.cost):
-          coffee_maker.make_coffee(drink)
+with open("quotes.txt") as file:
+    data = file.readlines()
+    # print(data)
+
+# def send_email():
+
+
+    # my_email = "sabihasultana.skh@gmail.com"
+    # password = "12341234*"
+    #
+    # with smtplib.SMTP("smtp.gmail.com") as connection:
+    #     connection.starttls()
+    #     connection.login(user=my_email, password=password)
+    #     connection.sendmail(from_addr=my_email, to_addrs="mohiddin.sk@gmail.com", msg=f"Subject:Quote of the week\n\n {quote}")
+
+now = dt.datetime.now()
+day_of_week = now.weekday()
+
+if day_of_week == 4:
+    quote = random.choice(data)
+    # send_email()
+
