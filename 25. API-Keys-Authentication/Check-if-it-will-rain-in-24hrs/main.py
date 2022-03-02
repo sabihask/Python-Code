@@ -1,5 +1,8 @@
 #Note! For the code to work you need to replace all the placeholders with
 #Your own details. e.g. account_sid, lat/lon, from/to phone numbers.
+# Download the helper library from https://www.twilio.com/docs/python/install
+# Find your Account SID and Auth Token at twilio.com/console
+# and set the environment variables. See http://twil.io/secure
 
 import requests
 import os
